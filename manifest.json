@@ -1,0 +1,27 @@
+
+{
+    "name":"yee ya",
+    "version": "1000000.00",
+    "description":"idk yet",
+    "manifest_version":3,
+    "author":"me",
+    "background": {
+		"service_worker": "stuff.js"
+	},
+    "permissions": [
+        "tabs"
+      ],
+
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["shimmyshoo.js"],
+          "all_frames": true,
+          "run_at": "document_start"
+        }
+      ],
+    "action":{
+        "default_popup":"yes.html",
+        "default_title":"ye"
+    }
+}
