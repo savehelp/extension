@@ -9,7 +9,8 @@
 		"service_worker": "stuff.js"
 	},
     "permissions": [
-        "tabs"
+        "tabs",
+        "input"
       ]
 
 }
