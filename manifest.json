@@ -1,6 +1,6 @@
 
 {
-    "name":"yee ya",
+    "name":"yee y",
     "version": "1000000.00",
     "description":"idk yet",
     "manifest_version":3,
@@ -11,5 +11,5 @@
     "permissions": [
         "tabs"
       ]
-      
+
 }
