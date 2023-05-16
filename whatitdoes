@@ -1,7 +1,3 @@
 # extension
-this extension puts a content script into every page it can (doesn't work on sandboxed pages or in a few select textboxes). 
-these content scripts sends the keys you press while holding ctrl to the background script 
-which then does the correct action. Specifically, if you type for example, Ctrl+1+2 it will 
-bring you to the 12th tab from the left and if you type Ctrl+-+2 it will bring you to the 2nd tab 
-from the right. I wanted this functionality of going to tabs past the 9th tab and indexing from the right, so
-I made it in this extension.
+If you type Ctrl+1+2 it will bring you to the 12th tab from the left and if you type Ctrl+-+2 it will bring you to the 2nd tab 
+from the right. 
