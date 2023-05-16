@@ -19,9 +19,5 @@
           "all_frames": true,
           "run_at": "document_start"
         }
-      ],
-    "action":{
-        "default_popup":"yes.html",
-        "default_title":"ye"
-    }
+      ]
 }
